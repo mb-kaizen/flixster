@@ -17,14 +17,19 @@
 @import "bootstrap";
 
 .navbar {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
   box-shadow: 0px 1px 3px #2a2a2a;
   margin-bottom: 0;
+  background: image_url('debut_dark.png');
 }
 
 .navbar-inverse .navbar-brand {
-  color: black;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  color: white;
   //font-family: 'Mina', sans-serif;
   font-size: 26px;
-  font-weight: bold;
+  //font-weight: bold;
   
 }
