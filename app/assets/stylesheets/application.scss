@@ -15,3 +15,16 @@
  */
 
 @import "bootstrap";
+
+.navbar {
+  box-shadow: 0px 1px 3px #2a2a2a;
+  margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-brand {
+  color: black;
+  //font-family: 'Mina', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  
+}
