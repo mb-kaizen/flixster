@@ -16,8 +16,19 @@
 
 @import "bootstrap";
 
+body {
+  background: image_url('bg.png');
+}
+
 .btn {
   border-radius: 0;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .frosty {
@@ -44,7 +55,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 370px;
+  height: 470px;
   box-shadow: 0px 3px 8px #2a2a2a;
 }
 
