@@ -51,6 +51,8 @@ end
 
   gem 'popper_js', '~> 1.12.9'
   gem 'bootstrap', '~> 4.1.0'
+  gem 'simple_form'
+  gem 'devise'
   
   source 'https://rails-assets.org' do
     gem 'rails-assets-tether', '>= 1.3.3'
