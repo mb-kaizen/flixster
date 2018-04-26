@@ -50,7 +50,7 @@ group :development do
 end
 
   gem 'popper_js', '~> 1.12.9'
-  gem 'bootstrap', '~> 4.1.0'
+  gem 'bootstrap', '~> 4.0.0'
   gem 'simple_form'
   gem 'devise'
   
