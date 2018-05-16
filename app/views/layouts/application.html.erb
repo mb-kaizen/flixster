@@ -11,20 +11,22 @@
 
   <body>
     <div id="flex-content-container">
+        
     <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
       <%= link_to 'Flixster', root_path, class: 'navbar-brand' %>
 
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">Tester</span>
+      <button class="navbar-toggler navbar-toggler-right menu-button" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">Menu</span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+     
+         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
           <li class="nav-item">
-            <%= link_to 'See All Courses', courses_path, class: 'nav-link' %>
+            <%= link_to courses_path, class: 'nav-link' do %>
+              See All Courses
+            <% end %>
           </li>
-        </ul>
-        <ul class="navbar-new">
           <% if user_signed_in? %>
             <li class="nav-item">
               <%= link_to 'My Dashboard', dashboard_path, class: 'nav-link' %>
