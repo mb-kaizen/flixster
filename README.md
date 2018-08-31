@@ -1,24 +1,8 @@
-# README
+An application for English teachers, including video and image uploads, drag and drop section reordering, student and teacher sections, and payment authorization through Stripe. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app was built with Ruby on Rails. It also utilizes jQuery to perform the dynamic drag and drop when signed in and using the admin page of the course you created.
 
-Things you may want to cover:
+Please sign up and log in to create a course.  
 
-* Ruby version
+https://flixster-michael-brown.heroku…
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
